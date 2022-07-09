@@ -43,19 +43,19 @@ body{
 .filler{
     width: 242.5px;
 }
-.operation, .number{
+.operation, .number, .equal, .backspace, .clear{
     height: 80px;
     width: 80px;
     border-radius: 0px;
     border-style: none;
     margin: 0.5px;
 }
-.operation{
+.operation, .equal, .backspace, .clear{
     background-color: orange;
 }
 .number:hover{
     background-color: grey;
 }
-.operation:hover{
+.operation:hover, .equal:hover, .backspace:hover, .clear:hover{
     background-color: darkorange;
 }
