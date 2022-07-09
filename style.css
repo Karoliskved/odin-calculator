@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    gap: 20px;
+}
+.input{
+    border: black solid 1px;
+    height: 70px;
+    width: 322.5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.lRow{
+    display: flex;
+  
+    
+}
+.filler{
+    width: 242.5px;
+}
+.operation, .number{
+    height: 80px;
+    width: 80px;
+    border-radius: 0px;
+    border-style: none;
+    margin: 0.5px;
+}
+.operation{
+    background-color: orange;
+}
+.number:hover{
+    background-color: grey;
+}
+.operation:hover{
+    background-color: darkorange;
+}
