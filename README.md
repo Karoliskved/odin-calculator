@@ -1,6 +1,6 @@
 # odin-calculator
 
-Calculator created using vanilla html, css, javascript.
+Calculator created using html, css, javascript.
 
 Can preform these operations: add, subtract, multiply, divide, clear input, clear all, equal.
 
